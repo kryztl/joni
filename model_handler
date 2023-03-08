@@ -1,0 +1,59 @@
+/*** 
+ *  Dynamic Page
+ *  March 08 2023
+ *  Owner Joni
+ *  Single Page Handler
+ *  Pseudo convert ver 0.1
+ *  Git ignore files
+*/
+
+// include page_handler
+// include page_url_func
+// include model_dba
+// include css_handler
+// include jquery_handler
+// include bootstrap_cdn
+
+//pseudo class model
+        //pseudo private id
+        //pseudo private num
+        //pseudo private log
+        //pseudo private conn
+
+        //pseudo func cons
+        //     pseudo conn query id, num, log
+        //     pseudo ifelse
+        //         pseudo return string failed
+        //         pseudo final return string conn
+
+        // pseudo func dba_insert
+        //     pseudo varid (autogen date + random_int + enc_string
+        //     pseudo num
+        //     pseudo conn query_insert
+        //     pseudo ifelse conn query_insert
+        //         pseudo return index_page
+
+        // pseudo func dba_display_records
+        //     pseudo conn query_display_records
+        //     pseudo result = query_dispaly_records
+        //         pseudo ifelse result > num_rows
+        //             pseudo while rows = result_assoc
+        //                 pseudo array_data
+        //                 pseudo return data
+        //         pseudo return system_err_msg 
+
+        // pseudo func dba_update_records
+        //     pseudo get_varid
+        //     pseudo func_call editbyId
+        //     pseudo conn query_update
+        //     pseudo result func_query_update
+        //     pseudo ifelse result = func_query_update(get_editbyId)
+        //         pseudo return index_page
+        //         pseudo return system_err_msg
+        
+        // pseudo func dba_delete_records
+        //     pseudo conn query_delete
+        //     pseudo conn result
+        //     pseudo ifelse
+        //         pseudo return index_page
+        //         pseudo return system_err_msg
